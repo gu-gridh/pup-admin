@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_article_authors3s",
+  "info": {
+    "name": "authors3",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "person": {
+      "model": "person"
+    },
+    "institution": {
+      "model": "institution"
+    }
+  }
+}

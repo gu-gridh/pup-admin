@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_article_names",
+  "info": {
+    "name": "name",
+    "icon": "user-tag"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

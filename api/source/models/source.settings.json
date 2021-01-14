@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sources",
+  "info": {
+    "name": "Source",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "authors": {
+      "collection": "person",
+      "via": "works",
+      "dominant": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    }
+  }
+}

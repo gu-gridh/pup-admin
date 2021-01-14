@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_article_keywords",
+  "info": {
+    "name": "Keyword",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

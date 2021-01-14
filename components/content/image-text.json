@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_image_texts",
+  "info": {
+    "name": "image + text",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "caption": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "string"
+    }
+  }
+}
