@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "institutions",
   "info": {
-    "name": "Institution"
+    "name": "Institution",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
