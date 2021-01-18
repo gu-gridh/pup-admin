@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_journal_chapters",
+  "info": {
+    "name": "chapter",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "articles": {
+      "collection": "article"
+    }
+  }
+}

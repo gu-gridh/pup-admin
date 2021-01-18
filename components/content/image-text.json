@@ -1,8 +1,8 @@
 {
   "collectionName": "components_section_image_texts",
   "info": {
-    "name": "image + text",
-    "icon": "address-card",
+    "name": "text + media",
+    "icon": "photo-video",
     "description": ""
   },
   "options": {},

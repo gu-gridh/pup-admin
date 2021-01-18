@@ -1,8 +1,9 @@
 {
   "collectionName": "components_article_authors3s",
   "info": {
-    "name": "authors3",
-    "icon": "user-graduate"
+    "name": "authors",
+    "icon": "user-graduate",
+    "description": ""
   },
   "options": {},
   "attributes": {
