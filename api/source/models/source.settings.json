@@ -14,11 +14,6 @@
     "text": {
       "type": "text"
     },
-    "authors": {
-      "collection": "person",
-      "via": "works",
-      "dominant": true
-    },
     "title": {
       "type": "string"
     },

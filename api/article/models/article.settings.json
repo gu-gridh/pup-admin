@@ -40,7 +40,7 @@
     "authors": {
       "type": "component",
       "repeatable": true,
-      "component": "article.authors3"
+      "component": "article.authors"
     },
     "references": {
       "collection": "source"
