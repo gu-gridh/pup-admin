@@ -14,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "doi": {
-      "type": "string"
-    },
     "revision": {
       "type": "integer",
       "required": true,
@@ -47,6 +44,23 @@
     },
     "references": {
       "collection": "source"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "revision_date": {
+      "type": "date",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

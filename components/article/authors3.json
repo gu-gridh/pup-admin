@@ -7,11 +7,19 @@
   },
   "options": {},
   "attributes": {
-    "person": {
-      "model": "person"
+    "firstname": {
+      "type": "string",
+      "required": true
     },
-    "institution": {
-      "model": "institution"
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "affiliation": {
+      "type": "string"
     }
   }
 }

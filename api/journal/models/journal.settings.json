@@ -17,7 +17,12 @@
     "presentation": {
       "type": "richtext"
     },
-    "chapters": {
+    "themes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "journal.chapter"
+    },
+    "formats": {
       "type": "component",
       "repeatable": true,
       "component": "journal.chapter"
