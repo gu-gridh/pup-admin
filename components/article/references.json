@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_article_references",
+  "info": {
+    "name": "references",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

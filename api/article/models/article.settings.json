@@ -42,9 +42,6 @@
       "repeatable": true,
       "component": "article.authors"
     },
-    "references": {
-      "collection": "source"
-    },
     "date": {
       "type": "date",
       "required": true
@@ -61,6 +58,27 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "downloads": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "references": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.references"
+    },
+    "identifier": {
+      "type": "string",
+      "regex": "[A-Za-z0-9-]+",
+      "required": true
     }
   }
 }
