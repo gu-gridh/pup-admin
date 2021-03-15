@@ -26,6 +26,9 @@
       "type": "component",
       "repeatable": true,
       "component": "journal.chapter"
+    },
+    "contact": {
+      "type": "richtext"
     }
   }
 }

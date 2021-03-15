@@ -2,12 +2,18 @@
   "collectionName": "components_article_references",
   "info": {
     "name": "references",
-    "icon": "book-open"
+    "icon": "book-open",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
       "type": "text"
+    },
+    "short": {
+      "type": "string",
+      "required": true,
+      "unique": false
     }
   }
 }
