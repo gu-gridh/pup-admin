@@ -46,7 +46,7 @@
       "type": "date",
       "required": true
     },
-    "revision_date": {
+    "revisionDate": {
       "type": "date",
       "required": true
     },
