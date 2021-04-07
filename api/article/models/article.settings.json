@@ -29,7 +29,7 @@
     "subtitle": {
       "type": "string"
     },
-    "summary": {
+    "abstract": {
       "type": "text"
     },
     "keywords": {
