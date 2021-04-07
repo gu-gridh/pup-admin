@@ -92,6 +92,9 @@
     },
     "guplayId": {
       "type": "string"
+    },
+    "citeAs": {
+      "type": "text"
     }
   }
 }
