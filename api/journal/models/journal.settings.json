@@ -29,6 +29,10 @@
     },
     "contact": {
       "type": "richtext"
+    },
+    "identifier": {
+      "type": "string",
+      "required": true
     }
   }
 }
