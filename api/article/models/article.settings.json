@@ -95,6 +95,11 @@
     },
     "citeAs": {
       "type": "text"
+    },
+    "guplayRef": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.guplay-ref"
     }
   }
 }

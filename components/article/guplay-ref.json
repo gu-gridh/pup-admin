@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_article_guplay_refs",
+  "info": {
+    "name": "guplayRef",
+    "icon": "film"
+  },
+  "options": {},
+  "attributes": {
+    "guplayId": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
