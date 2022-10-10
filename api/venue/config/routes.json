@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/venue",
+      "handler": "venue.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/venue",
+      "handler": "venue.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/venue",
+      "handler": "venue.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "venues",
+  "info": {
+    "name": "Venue",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "journals": {
+      "collection": "journal"
+    }
+  }
+}
