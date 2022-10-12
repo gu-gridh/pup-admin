@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_pages",
+  "info": {
+    "name": "Page",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
