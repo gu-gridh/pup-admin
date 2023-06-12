@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_image_gallery_notes",
+  "info": {
+    "name": "Image Gallery + Notes",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image_gallery_text": {
+      "type": "richtext"
+    },
+    "image_gallery_media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

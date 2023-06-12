@@ -23,7 +23,11 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "content.image-text"
+        "content.image-text",
+        "content.model-viewer",
+        "content.image-gallery-notes",
+        "content.video-notes",
+        "content.text-notes"
       ]
     },
     "subtitle": {
